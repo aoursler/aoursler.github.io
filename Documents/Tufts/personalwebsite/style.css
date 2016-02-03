@@ -19,11 +19,12 @@ body{
 	background-color: white;
 	background-image: url("sanfranbridge.jpg");
 	background-attachment: fixed;
-	/*background-position: 0, -100px;*/
 	background-size: auto 720px;
 	background-repeat: no-repeat;
 	color: grey;
 	font-family: 'Titillium Web', sans-serif;
+	min-width: 1055px;
+
 }
 
 
@@ -43,7 +44,7 @@ body{
 
 a:link{
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 1em;
 	padding: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -63,16 +64,32 @@ a:link{
 	font-weight: lighter;
 	border-bottom: 3px solid blue;
 }
+
 /*CUTOUT*/
 #cutout{
-	color: black;
-	padding-left: 100px;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	color: white;
 	padding-top: 50px;
 	margin-bottom: 140px;
 }
 img{
-	float: left;
-	padding-right: 400px;
+	order: 1;
+	flex-grow: 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#cutoutwords{
+	order: 2;
+	flex-grow: 1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	min-width: 400px;
 }
 
 /*ABOUT*/
@@ -107,17 +124,23 @@ form{
 	padding: 3px;
 	width: 200px;
 }
+
 /*RESUME*/
 #resume{
 	background-color: white;
 	color: grey;
-	margin-left: -10px;
-	margin-right: -10px;
-	padding: 10px;
-	position: absolute;
-	width: 98.75%;
+	margin: -10px;
+	padding-left: 115px;
+	padding-right: 115px;
 	padding-top: 100px;
 	padding-bottom: 200px;
+	/*margin-left: -10px;*/
+	/*margin-right: -10px;*/
+	/*padding: 10px;*/
+	/*position: absolute;*/
+	/*width: 98.75%;*/
+	/*padding-top: 100px;*/
+	/*padding-bottom: 200px;*/
 }
 #resumetext{
 	margin-right: 100px;
@@ -127,6 +150,7 @@ form{
 	display: inline;
 	padding-left: 50px;
 }
+
 /*FINAL TOUCHES*/
 h2{
 	color: black;
@@ -135,6 +159,9 @@ h2{
 @media all and (max-device-width: 700px){
 	body{
 		background-size: 2200px auto;
+	}
+	a:link{
+		font-size: 2em;
 	}
 }
 
