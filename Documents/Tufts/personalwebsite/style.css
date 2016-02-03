@@ -1,0 +1,142 @@
+/*ToDo:	Header:	Put picture creds.
+		Portfolio: 	-Skeletron
+					-Snake
+					-Fishtank
+					-RoadTrip?
+					-MapChat
+					Pages pictures link to
+					Fix up portfolio items
+		Pictures:	Of Mountains
+*/
+/*Future:	Resume Formating
+			Server side
+			Domain name/link it up?
+			Header:	Add Linked In, Facebook, and Github
+			Color Skeme: Use Pokepallets?
+*/
+
+body{
+	background-color: white;
+	background-image: url("sanfranbridge.jpg");
+	background-attachment: fixed;
+	/*background-position: 0, -100px;*/
+	background-size: auto 720px;
+	background-repeat: no-repeat;
+	color: grey;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+/*HEADER*/
+#header{
+	background-color: white;
+	width: 100%;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -30px;
+	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	color: #b4c5cd;
+	text-align: right;
+}
+
+a:link{
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#aboutlink{
+	color: grey;
+	font-weight: lighter;
+	border-bottom: 3px solid red; 
+}
+#portfoliolink{
+	color: grey;
+	font-weight: lighter;
+	border-bottom: 3px solid green;
+}
+#resumelink{
+	color: grey; 
+	font-weight: lighter;
+	border-bottom: 3px solid blue;
+}
+/*CUTOUT*/
+#cutout{
+	color: black;
+	padding-left: 100px;
+	padding-top: 50px;
+	margin-bottom: 140px;
+}
+img{
+	float: left;
+	padding-right: 400px;
+}
+
+/*ABOUT*/
+#about{
+	background-color: white;
+	color: grey;
+	margin: -10px;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+#abouttext{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2;
+	column-count: 2;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+/*PORTFOLIO*/
+#portfolio{
+	background-color: grey;
+	color: white;
+	margin: -10px;
+	padding-left: 115px;
+	padding-right: 115px;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+form{
+	display: inline;
+}
+#square{
+	padding: 3px;
+	width: 200px;
+}
+/*RESUME*/
+#resume{
+	background-color: white;
+	color: grey;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding: 10px;
+	position: absolute;
+	width: 98.75%;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+#resumetext{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+#tab{
+	display: inline;
+	padding-left: 50px;
+}
+/*FINAL TOUCHES*/
+h2{
+	color: black;
+}
+
+@media all and (max-device-width: 700px){
+	body{
+		background-size: 2200px auto;
+	}
+}
+
+
+
