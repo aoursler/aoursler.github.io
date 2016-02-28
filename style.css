@@ -1,20 +1,16 @@
 /*ToDo:	Header:	Put picture creds.
-		Portfolio: 	-Skeletron
-					-Snake
+		Portfolio: 	-Snake
 					-Fishtank
 					-RoadTrip?
 					-MapChat
-					Pages pictures link to
-					Fix up portfolio items
-		Pictures:	Of Mountains
 */
-/*Future:	Resume Formating
-			Server side
+/*Future:	Server side
 			Domain name/link it up?
 			Header:	Add Linked In, Facebook, and Github
-			Color Skeme: Use Pokepallets?
 */
 /*
+Color Skeme
+http://www.awwwards.com/trendy-web-color-palettes-and-material-design-color-schemes-tools.html
 #c0dfd9-blue
 #e9ece5-white
 #b3c2bf-grey
@@ -144,8 +140,7 @@ form{
 	margin-right: 100px;
 	margin-left: 100px;
 }
-#tab{
-	display: inline-block;
+#textblock{
 	padding-left: 50px;
 }
 

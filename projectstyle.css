@@ -1,14 +1,16 @@
+/*
+Color Skeme
+http://www.awwwards.com/trendy-web-color-palettes-and-material-design-color-schemes-tools.html
+#c0dfd9-blue
+#e9ece5-white
+#b3c2bf-grey
+#3b3a36-black
+*/
 body{
 	margin-left: 200px;
 	margin-right: 200px;
-	background-color: grey;
-	color: white;
+	background-color: #b3c2bf;
+	color: #3b3a36;
 	font-family: 'Titillium Web', sans-serif;
 	text-align: center;
-}
-	
-
-#webpage{
-	margin-left: 100px;
-	margin-right: 100px;
 }
