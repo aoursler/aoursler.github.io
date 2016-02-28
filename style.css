@@ -14,14 +14,19 @@
 			Header:	Add Linked In, Facebook, and Github
 			Color Skeme: Use Pokepallets?
 */
-
+/*
+#c0dfd9-blue
+#e9ece5-white
+#b3c2bf-grey
+#3b3a36-black
+*/
 body{
-	background-color: white;
+	background-color: #e9ece5;/*background white*/
 	background-image: url("sanfranbridge.jpg");
 	background-attachment: fixed;
 	background-size: auto 720px;
 	background-repeat: no-repeat;
-	color: grey;
+	color: #3b3a36;/*text black*/
 	font-family: 'Titillium Web', sans-serif;
 	min-width: 1055px;
 
@@ -30,7 +35,7 @@ body{
 
 /*HEADER*/
 #header{
-	background-color: white;
+	background-color: #e9ece5;
 	width: 100%;
 	margin-left: -10px;
 	margin-right: -10px;
@@ -38,7 +43,7 @@ body{
 	padding: 10px;
 	padding-top: 30px;
 	padding-bottom: 60px;
-	color: #b4c5cd;
+	color: #3b3a36;
 	text-align: right;
 }
 
@@ -50,19 +55,19 @@ a:link{
 	padding-right: 20px;
 }
 #aboutlink{
-	color: grey;
+	color: #3b3a36;
 	font-weight: lighter;
-	border-bottom: 3px solid red; 
+	border-bottom: 3px solid #40AF9F; 
 }
 #portfoliolink{
-	color: grey;
+	color: #3b3a36;
 	font-weight: lighter;
-	border-bottom: 3px solid green;
+	border-bottom: 3px solid #40AF9F;
 }
 #resumelink{
-	color: grey; 
+	color: #3b3a36; 
 	font-weight: lighter;
-	border-bottom: 3px solid blue;
+	border-bottom: 3px solid #40AF9F;
 }
 
 /*CUTOUT*/
@@ -70,7 +75,7 @@ a:link{
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
-	color: white;
+	color: #e9ece5;
 	padding-top: 50px;
 	margin-bottom: 140px;
 }
@@ -94,8 +99,8 @@ img{
 
 /*ABOUT*/
 #about{
-	background-color: white;
-	color: grey;
+	background-color: #e9ece5;
+	color: #3b3a36;
 	margin: -10px;
 	padding-top: 100px;
 	padding-bottom: 200px;
@@ -109,8 +114,8 @@ img{
 }
 /*PORTFOLIO*/
 #portfolio{
-	background-color: grey;
-	color: white;
+	background-color: #b3c2bf;/*background grey*/
+	color: #3b3a36;
 	margin: -10px;
 	padding-left: 115px;
 	padding-right: 115px;
@@ -127,8 +132,8 @@ form{
 
 /*RESUME*/
 #resume{
-	background-color: white;
-	color: grey;
+	background-color: #e9ece5;
+	color: #3b3a36;
 	margin: -10px;
 	padding-left: 115px;
 	padding-right: 115px;
@@ -146,7 +151,7 @@ form{
 
 /*FINAL TOUCHES*/
 h2{
-	color: black;
+	color: #3b3a36;
 }
 
 @media all and (max-device-width: 700px){
