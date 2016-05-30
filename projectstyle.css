@@ -14,3 +14,12 @@ body{
 	font-family: 'Titillium Web', sans-serif;
 	text-align: center;
 }
+
+/*PORTFOLIO*/
+form{
+	display: inline;
+}
+#square{
+	padding: 3px;
+	width: 200px;
+}
