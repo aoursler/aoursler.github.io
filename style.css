@@ -18,12 +18,12 @@ http://www.awwwards.com/trendy-web-color-palettes-and-material-design-color-sche
 */
 body{
 	background-color: #e9ece5;/*background white*/
-	background-image: url("sanfranbridge.jpg");
+	background-image: url("sanfranbridge.png");
 	background-attachment: fixed;
 	background-size: auto 720px;
 	background-repeat: no-repeat;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #3b3a36;/*text black*/
-	font-family: 'Titillium Web', sans-serif;
 	min-width: 1055px;
 
 }
@@ -45,7 +45,7 @@ body{
 
 a:link{
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 20px;
 	padding: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -150,11 +150,11 @@ h2{
 }
 
 @media all and (max-device-width: 700px){
-	body{
-		background-size: 2200px auto;
-	}
 	a:link{
-		font-size: 2em;
+		font-size: 50px;
+	}
+	#abouttext{
+	column-count: 1;
 	}
 }
 
